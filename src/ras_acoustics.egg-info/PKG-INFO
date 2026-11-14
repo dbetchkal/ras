@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: ras-acoustics
+Version: 0.2.0
+Summary: Representative Acoustic States analysis from spectrograms
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.24
+Requires-Dist: pandas>=2.0
+Requires-Dist: scipy>=1.10
+Requires-Dist: networkx>=3.0
+Provides-Extra: stsw
+Requires-Dist: torch>=2.0; extra == "stsw"
+Provides-Extra: plot
+Requires-Dist: matplotlib>=3.7; extra == "plot"
+Provides-Extra: dev
+Requires-Dist: pytest>=7; extra == "dev"
+Requires-Dist: ruff>=0.4; extra == "dev"
+Dynamic: license-file
+
+# Representative Acoustic States
+Representative Acoustic States (RAS): a general, conceptually principled method to partition an arbitrary spectrogram into a structured vocabulary of states.
+
+
