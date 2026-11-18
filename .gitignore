@@ -1,0 +1,19 @@
+# Pycharm
+.idea
+
+# venv
+.venv*
+
+# python
+**/__pycache__
+*.pyc
+
+# pyenv
+.python-version
+
+# .egg-info
+*.egg-info/
+
+# macOS files
+.DS_Store
+
